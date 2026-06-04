@@ -1002,6 +1002,9 @@ footer {
 </footer>
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  const supabaseUrl = 'https://ansfsjnearhquosqnxdm.supabase.co';
+const supabaseKey = 'sb_publishable_mjOjJlTKnThRGHyewkRV_g_VL5hfQa4';
+const _supabase = supabase.createClient(supabaseUrl, supabaseKey);
 // Scroll Reveal
 const reveals = document.querySelectorAll('.reveal');
 const observer = new IntersectionObserver(entries => {
